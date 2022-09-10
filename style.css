@@ -189,6 +189,7 @@ body::-webkit-scrollbar {
 
 .lead {
   font-size: 1rem;
+  padding: 2rem;
 }
 
 .italics {
@@ -235,7 +236,7 @@ body::-webkit-scrollbar {
 
 /* nav bar */
 #main-nav {
-  height: 5rem;
+  height: 4rem;
   background: var(--black-color);
   position: sticky;
   top: 0;
@@ -253,21 +254,21 @@ body::-webkit-scrollbar {
 #main-nav .logo {
   margin-top: rem;
   margin-left: 1rem;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   float: left;
 }
 
 #main-nav ul {
-  margin-top: -1.5rem;
+  margin-top: -0.7rem;
   margin-right: 7rem;
   justify-self: end;
   display: flex;
 }
 
 #main-nav ul li a {
-  padding: 1rem;
-  font-weight: bold;
+  padding: 0.5rem;
+  /* font-weight: bold; */
   /* border-left: 3px solid var(--orange-color); */
 }
 
@@ -284,14 +285,15 @@ body::-webkit-scrollbar {
 }
 
 .showcase-text {
-  width: 40rem;
+  width: 35rem;
+  margin-right: 2rem;
 }
 
 .showcase-img img {
   background: url(../img/img1.jpg) no-repeat center center/cover;
   margin-top: 2rem;
   margin-bottom: 5rem;
-  width: 440px;
+  width: 380px;
   border-radius: 8px;
   box-shadow: 3px 3px 20px 3px #4b4644;
 }
