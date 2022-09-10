@@ -26,11 +26,11 @@ body {
 }
 
 /* utility classes */
-.container {
-  max-width: 1300px;
-  margin: auto;
-  padding: 0 2rem;
-  overflow: hidden;
+.containerr {
+  max-width: 100%;
+  /* margin: auto; */
+  /* padding: 0 2rem; */
+  /* overflow: hidden; */
   /* background: var(--bg-color); */
 }
 
@@ -57,10 +57,10 @@ body {
 /* day shift */
 
 #check {
+  display: none;
   z-index: 5;
   cursor: pointer;
   opacity: 0;
-  display: none;
 }
 
 /* #check,
