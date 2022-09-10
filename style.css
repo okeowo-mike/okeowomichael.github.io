@@ -20,7 +20,7 @@ body {
   font-family: roboto;
   line-height: 1.5;
   letter-spacing: 1px;
-  font-size: large;
+  font-size: medium;
   background: var(--primary-color);
   color: var(--white-color);
 }
@@ -137,11 +137,11 @@ body {
 }
 
 svg {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .svg-2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 svg:hover {
@@ -177,18 +177,18 @@ body::-webkit-scrollbar {
 }
 
 .xxl {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .xl {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .xlc {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--orange-color);
 }
 
 .lead {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .italics {
@@ -289,8 +289,8 @@ body::-webkit-scrollbar {
 
 .showcase-img img {
   background: url(../img/img1.jpg) no-repeat center center/cover;
-  margin-top: 10rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   width: 440px;
   border-radius: 8px;
   box-shadow: 3px 3px 20px 3px #4b4644;
@@ -587,11 +587,11 @@ body::-webkit-scrollbar {
 
   body {
     font-family: roboto;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  font-size: small;
-  background: var(--primary-color);
-  color: var(--white-color);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: small;
+    background: var(--primary-color);
+    color: var(--white-color);
   }
 
   .xxl {
@@ -604,13 +604,11 @@ body::-webkit-scrollbar {
     font-size: 2rem;
     color: var(--orange-color);
   }
-  
+
   .lead {
     font-size: 1rem;
     text-align: center;
   }
-
-
 
   #main-nav ul {
     margin-top: -1rem;
@@ -623,9 +621,7 @@ body::-webkit-scrollbar {
   }
 
   #main-nav .logo {
-    
     margin-left: -1.8rem;
-    
   }
 
   #showcase .container {
@@ -639,7 +635,6 @@ body::-webkit-scrollbar {
     position: relative;
     width: 22rem;
     top: 28rem;
-    
   }
 
   .showcase-img img {
@@ -665,7 +660,6 @@ body::-webkit-scrollbar {
     background: url(../img/me-2.jpg) no-repeat center center/cover;
     width: 170px;
     border-radius: 50%;
-
   }
 
   /* work */
@@ -703,14 +697,14 @@ body::-webkit-scrollbar {
 
   /* contact section */
 
-#contact .contact-info div {
-  padding: 1rem;
-}
+  #contact .contact-info div {
+    padding: 1rem;
+  }
 
-/* footer section */
-#main-footer {
-  font-size: 0.8rem;
-}
+  /* footer section */
+  #main-footer {
+    font-size: 0.8rem;
+  }
 
   /* knowledge timeline */
   /* boxes */
