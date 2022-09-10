@@ -244,6 +244,9 @@ body::-webkit-scrollbar {
 }
 
 #main-nav .container {
+  /*  */
+
+  /* max-width: 1600px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -253,7 +256,7 @@ body::-webkit-scrollbar {
 
 #main-nav .logo {
   margin-top: rem;
-  margin-left: 1rem;
+  margin-left: 9rem;
   width: 50px;
   height: 50px;
   float: left;
@@ -588,6 +591,7 @@ body::-webkit-scrollbar {
   } */
 
   body {
+    width: auto;
     font-family: roboto;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -595,6 +599,11 @@ body::-webkit-scrollbar {
     background: var(--primary-color);
     color: var(--white-color);
   }
+
+  /* .containerr {
+    width: 400px;
+    
+  } */
 
   .xxl {
     font-size: 4rem;
@@ -612,18 +621,21 @@ body::-webkit-scrollbar {
     text-align: center;
   }
 
+  /* #main-nav {
+    width: 390px;
+  } */
   #main-nav ul {
-    margin-top: -1rem;
-    margin-right: -2rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
     justify-self: end;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   #main-nav ul li {
-    margin-left: -1rem;
+    margin-left: -0.2rem;
   }
 
   #main-nav .logo {
-    margin-left: -1.8rem;
+    margin-left: 0.8rem;
   }
 
   #showcase .container {
@@ -635,8 +647,9 @@ body::-webkit-scrollbar {
 
   .showcase-text {
     position: relative;
+    padding: 2rem;
     width: 22rem;
-    top: 28rem;
+    top: 26rem;
   }
 
   .showcase-img img {
@@ -647,14 +660,14 @@ body::-webkit-scrollbar {
     border-radius: 8px;
     box-shadow: 3px 3px 20px 3px #4b4644;
     position: relative;
-    top: -28rem;
+    top: -26rem;
   }
 
   #dis-text {
     background: var(--black-color);
-    height: 110vh;
-    padding: 6rem 1rem;
-    padding-top: 2rem;
+    height: 125vh;
+    padding: 5rem 1rem;
+    padding-top: 1rem;
     text-align: center;
   }
 
@@ -662,6 +675,7 @@ body::-webkit-scrollbar {
     background: url(../img/me-2.jpg) no-repeat center center/cover;
     width: 170px;
     border-radius: 50%;
+    margin-top: 2rem;
   }
 
   /* work */
